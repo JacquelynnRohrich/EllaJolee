@@ -1,0 +1,187 @@
+body {
+    margin: 20;
+    text-align: center;
+}
+
+.name {
+    border: solid;
+    width: 100%;
+    font-size: 35px;
+    color: black;
+    margin-top: 85px;
+    text-align: center;
+}
+img {
+    border: solid 13px black;
+    margin: 25px;
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: lightseagreen;
+    font-size: 45px;
+    
+}
+p {
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer {
+    border: none;
+    background-color: #5e21bfc0;
+    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    font-size: 175%;
+}
+
+#nav {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    box-sizing: border-box;
+    outline: solid;
+    outline-color: white;
+    
+}
+
+#nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    max-width: 900px; 
+}
+
+#nav li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0; 
+}
+
+#nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    float: left;
+    font-size: 48px;
+}
+
+.ContactButton {
+    margin-bottom: 20px;
+    padding-top: 90px;
+}
+
+#Contact a:link, a:visited {
+padding: 30px;
+text-decoration: none;
+font-weight: bold;
+color: #000000;
+background-color: lightseagreen;
+justify-content: center;
+font-size: 33px;
+outline: solid;
+outline-color: #000000;
+box-sizing: border-box;
+margin-top: 20px;
+}
+
+a:hover, a:active {
+background-color: lightcoral;
+}
+
+
+.Tabs__item {
+    display: none;
+    cursor: pointer;
+}
+
+.Tabs__item-selected {
+display: block;
+cursor: pointer;
+
+}
+
+.Tabs__link {
+box-sizing: border-box;
+padding: 10px 15px;
+margin: 10px;
+background-color: lightseagreen;
+cursor: pointer;
+border: solid;
+border-color: #000
+}
+
+.Tabs__link-selected {
+background-color: salmon;
+cursor: pointer;
+}
+
+.List {
+left: 0;
+margin: 20px 0;
+
+}
+
+.List__item {
+display: inline;
+font-size: 33px;
+}
+.Box__title {
+font-size: 45px;;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.Box--gray {
+background-color:white;
+}
+
+.Box--blue {
+background-color: white;
+}
+
+.Box--green {
+background-color: white;
+}
+.Section {
+	box-sizing: border-box;
+	display: inline-block;
+	clear: both;
+	width: 100%;
+	margin: 0;
+	position: relative;
+}
+
+.Section__title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.Section__full {
+	padding: 20px;
+}
+
+.Section__half-left {
+	padding: 20px;
+}

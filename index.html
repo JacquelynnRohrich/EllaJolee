@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="./Specs.css">
+    <script defer="defer" src="./components/tabs.js"></script>
+    <link rel="icon" type="image/png" href="./images/download.png">
+    <TITLE>Ella JoLee and Her Magnificent Brain</TITLE>
+</head>
+
+<body>
+    <div id="Login"></div>
+    <h1 class="login">Sign in</h1>
+    <form name="login">
+        Username
+        <input type="text" name="userid" /> Password
+        <input type="password" name="pswrd" />
+        <input type="button" onclick="check(this.form)" value="Login" />
+        <input type="reset" value="Cancel" />
+    </form>
+
+    <script language="javascript">
+        function check(form) { /*function to check userid & password*/
+            /*the following code checkes whether the entered userid and password are matching*/
+            if (form.userid.value == "myuserid" && form.pswrd.value == "mypswrd") {
+                window.open('target.html')/*opens the target page while Id & password matches*/
+            }
+            else {
+                alert("Error Password or Username")/*displays error message*/
+            }
+        }
+    </script>
+    <div id="nav">
+        <ul>
+            <li><a href="index.html">Welcome!</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="artists.html">Artists</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="name">
+        <h1>Ella JoLee and Her Magnificent Brain</h1>
+    </div>
+    <img src="./images/123.jpg"  width="675 " height="1265 " />
+</body>
+
+</html>
+
